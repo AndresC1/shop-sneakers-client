@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter, } from 'react-router-dom'
 import Home from './pages/Home/Home.tsx'
 import Layout from './pages/Layout/Layout.tsx'
+import 'tailwindcss/tailwind.css'
 
 const route = createBrowserRouter([
   {
