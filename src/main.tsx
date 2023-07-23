@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter, } from 'react-router-dom'
 import Home from './pages/Home/Home.tsx'
 import Layout from './pages/Layout/Layout.tsx'
 import 'tailwindcss/tailwind.css'
+import './main.css'
 
 const route = createBrowserRouter([
   {
