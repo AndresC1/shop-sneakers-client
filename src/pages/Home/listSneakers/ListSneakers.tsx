@@ -6,9 +6,10 @@ import RequestSneakersType from '../../../types/RequestSneakersType';
 export default function ListSneakers() {
     const [Sneakers, setSneakers] = useState<RequestSneakersType>({} as RequestSneakersType);
 
+    const url =import.meta.env.VITE_SECRET_URL
     useEffect(() => {
         const getData = async () => {
-            const data = await getSneakers();
+            const data = await getSneakers(url);
             setSneakers(data);
         }
         getData();
