@@ -1,13 +1,13 @@
 import RequestSneakersType from "../types/RequestSneakersType"
 
-async function getSneakers(): Promise<RequestSneakersType> {
+async function getSneakers(url: string): Promise<RequestSneakersType> {
     const options = {
         method: 'GET',
         headers: {
             'Accept': 'application/json'
         }
     }
-    return await fetch('http://127.0.0.1:8000/api/v1/sneakers/', options)
+    return await fetch(url, options)
     .then(response => response.json())
     .then(result => result)
 }
