@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { IoMdSearch } from 'react-icons/io';
 
 export default function Search() {

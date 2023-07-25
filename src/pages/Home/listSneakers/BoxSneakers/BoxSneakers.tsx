@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import SneakersType from '../../../../types/SneakersType'
 import { PiShoppingCartSimple } from 'react-icons/pi';
 

@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Social from './social/Social'
 import Contract from './contract/Contract'
 

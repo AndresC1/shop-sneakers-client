@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import BoxSneakers from './BoxSneakers/BoxSneakers'
 import { getSneakers } from '../../../services/SneakersAPI'
 import RequestSneakersType from '../../../types/RequestSneakersType';
